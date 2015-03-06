@@ -1,0 +1,89 @@
+@font-face
+{
+    font-family: SourceSans;
+    src: local(SourceSans), url('fonts/SourceSansPro-Light.otf') format('opentype');
+}
+
+html
+{
+    /*font-family: Montserrat, sans-serif;*/
+    font-weight:lighter !important;
+    position: relative;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -100px;
+}
+
+body
+{ 
+    font-family: SourceSans, sans-serif;
+    margin-bottom: 15em;
+    width: 100%;
+    height: 100%;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+header
+{
+    width: 100%;
+    height: 6.85em;
+    background-color: #013E6B;
+    margin-right: 2em;
+}
+
+#headerimg
+{
+    max-width: 100%;
+    min-height: 6.5em;
+    margin-left: -1em;
+}
+
+.btn-xlarge
+{
+    padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.startquiz
+{
+    max-width: 15em;
+    margin: 0 auto;
+}
+
+#startquizbutton
+{
+    width:10em;
+    text-align:center;
+}
+
+@media only screen and (max-width:500px)
+{
+
+    body
+    {
+        font-size: small;
+    }
+
+    h1
+    {
+        font-size: 3.2em;
+    }
+
+    li
+    {
+        display: block;
+        padding:0;
+    }
+}

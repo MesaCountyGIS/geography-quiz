@@ -1,0 +1,241 @@
+@font-face
+{
+    font-family: SourceSans;
+    src: local(SourceSans), url('fonts/SourceSansPro-Light.otf') format('opentype');
+}
+
+html
+{
+    /*font-family: Montserrat, sans-serif;*/
+    font-weight:lighter !important;
+    position: relative;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -100px;
+}
+
+body
+{ 
+    font-family: SourceSans, sans-serif;
+    margin-bottom: 15em;
+    width: 100%;
+    height: 100%;
+}
+
+.footer
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /*height: 15em;*/
+    background-color: #f5f5f5;
+}
+
+/*.wrapper
+{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+    position: relative;
+}*/
+
+.text-muted
+{
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 4em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+ul
+{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+li
+{
+    display: inline;
+    /*margin-right: 3em;*/
+    padding:1em;
+}
+
+a
+{
+    color: black;
+}
+
+    a:hover
+    {
+        cursor: pointer;
+        color: lightcoral;
+        text-decoration: none;
+    }
+
+label
+{
+    font-size: 1.2em;
+}
+
+header
+{
+    width: 100%;
+    height: 6.85em;
+    background-color: #013E6B;
+    margin-right: 2em;
+}
+
+#headerimg
+{
+    max-width: 100%;
+    min-height: 6.5em;
+    margin-left: -1em;
+}
+
+input[type="radio"]
+{
+    cursor: pointer;
+    height: 1.1em;
+    width: 1.1em;
+    margin-left: 2em;
+    margin-right: .5em;
+}
+
+.questionblock
+{
+    display: none;
+    max-width: 42em;
+    width: auto;
+    margin: 4em auto 0 auto;
+    font-size: 1.2em;
+}
+
+#submitPanel
+{
+    display: none;
+    width: 100%;
+    margin: 5em auto 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#startquiz
+{
+    max-width: 13em;
+    margin: 0 auto;
+}
+
+#startquizbutton
+{
+    margin-bottom: 2em;
+}
+
+.btn-xlarge
+{
+    padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.btn-medium
+{
+    padding: 12px 24px;
+    font-size: 18px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.buttongroup
+{
+    max-width: 15.1em;
+    position: relative;
+    margin: 3em auto;
+}
+
+#startoverbutton{
+     margin-bottom:-10em;
+}
+
+#buttonholder{
+display:none;
+    max-width: 9em;
+    margin: 0 auto;
+}
+
+#progressBar
+{
+    display: none;
+    height: 2em;
+    position: relative;
+    background: #555;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    -moz-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+    #progressBar > span
+    {
+        text-align: center;
+        color: white;
+        display: block;
+        background-color: #808080;
+        z-index: 100;
+        width: 0;
+        height: 2em;
+        height: 250%;
+        margin-top: -0.4em;
+        border-radius: 8px 0 0 8px;
+    }
+
+#lastp
+{
+    display: none;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#socialShare
+{
+    text-align: center;
+    margin-top: 2em;
+}
+
+@media only screen and (max-width:500px)
+{
+
+    body
+    {
+        font-size: small;
+    }
+
+    h1
+    {
+        font-size: 3.2em;
+    }
+
+    li
+    {
+        display: block;
+        padding:0;
+    }
+}
