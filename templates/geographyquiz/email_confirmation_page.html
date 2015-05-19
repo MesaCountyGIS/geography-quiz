@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-{% load static %}
+<!DOCTYPE html> {% load static %}
 <html>
+
 <head>
-    
+
     <!--[if lt IE 9]>
    <script>
       document.createElement('header');
@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'css/email.css' %}">
-   <!-- <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>-->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>-->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,7 +23,7 @@
     <![endif]-->
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    
+
 </head>
 
 <body>
@@ -31,9 +31,13 @@
         <img id="headerimg" src="{% static 'images/mc_header.jpg' %}" alt="Mesa County Header" />
     </header>
     <div class="container-fluid">
-   <h1 class="row-fluid  col-xs-12 col-md-12">You have successfully emailed your quiz results. <br>Click below to return to your quiz results page.</h1><br>
-        <div class="startquiz"><input id="startquizbutton" class="btn btn-default row-fluid col-xs-2 col-md-2 btn-xlarge" type="button" value="Back to results" onClick="history.go(-1);"></div>
-   
-   </div>
+        <h1 class="row-fluid  col-xs-12 col-md-12">You have successfully emailed your quiz results. <br>Click below to return to your quiz results page.</h1>
+        <br>
+        <div class="startquiz">
+            <input id="startquizbutton" class="btn btn-default row-fluid col-xs-2 col-md-2 btn-xlarge" type="button" value="Back to results" onClick="history.go(-1);">
+        </div>
+
+    </div>
 </body>
+
 </html>
